@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.countryListDisplay{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.country{
+  background-color: rgb(197, 197, 197);
+  border: 1px solid #282c34;
+  border-radius: 20px;
+  margin: 10px;
+  width: 200px;
+}
